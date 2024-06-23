@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra-Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="Utility.css" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <img width="80px" src="/Images/myntra_logo.jpg" />
+      </div>
+      <div class="nav-bar">
+        <a href="#">MENS</a>
+        <a href="#">WOMENS</a>
+        <a href="#">KIDS</a>
+        <a href="#">HOME & LIVING</a>
+        <a href="#">BEAUTY</a>
+        <a href="#">STUDIO <sup>NEW</sup></a>
+      </div>
+      <div class="search-bar">
+        <img src="/Images/Search.svg" />
+        <input placeholder="Search for Products, Brands and More" />
+      </div>
+      <div class="action-bar">
+        <div class="action-bar-icon profile">
+          <img src="/Images/User.svg" />
+          <p>Profile</p>
+        </div>
+        <div class="action-bar-icon wishlist">
+          <img src="/Images/Favourite.svg" />
+          <p>Wishlist</p>
+        </div>
+        <div class="action-bar-icon bag">
+          <img src="/Images/Bag.svg" />
+          <p>Bag</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider">
+        <div class="slides">
+          <div class="slide"><img src="/Images/1.jpg" /></div>
+          <div class="slide"><img src="/Images/2.jpg" /></div>
+          <div class="slide"><img src="/Images/3.jpg" /></div>
+          <div class="slide"><img src="/Images/4.jpg" /></div>
+          <div class="slide"><img src="/Images/5.jpg" /></div>
+          <div class="slide"><img src="/Images/6.jpg" /></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+      </div>
+      <ul class="categories">
+        <h2>Crazy Deal</h2>
+        <li>
+          <figure>
+            <a href="#"><img src="/Images/C_1.jpg" /></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="/Images/C_2.jpg" /></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="/Images/C_3.jpg" /></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="/Images/C_4.jpg" /></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="/Images/C_5.jpg" /></a>
+          </figure>
+          <figure>
+            <a href="#"><img src="/Images/C_6.jpg" /></a>
+          </figure>
+        </li>
+      </ul>
+      <div class="category_heading">WORTHY BRANDS TO BAG</div>
+      <div class="category_items">
+        <a href="#"
+          ><img class="sale_item" src="images/offers/1.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/2.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/3.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/4.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/5.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/6.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/7.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/8.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/9.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/10.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/11.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="sale_item" src="images/offers/12.png" alt=""
+        /></a>
+      </div>
+
+      <div class="category_heading">SHOP BY CATEGORY</div>
+      <div class="category_items">
+        <a href="#"><img class="sale_item" src="images/categories/1.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/2.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/3.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/4.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/5.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/6.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/7.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/8.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/9.jpg" /></a>
+        <a href="#"><img class="sale_item" src="images/categories/10.jpg" /></a>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">© 2024 www.Angad.com. All rights reserved.</div>
+    </footer>
+    <script src="Script.js"></script>
+  </body>
+</html>
